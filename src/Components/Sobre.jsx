@@ -5,11 +5,14 @@ import * as S from "./Style.jsx"
 function Sobre() {
     return (
         <S.ContainerSobre>
-            <S.Perfil src={Perfil} alt="" />
 
             <div>
-                <h2>Olá, me chamo Elisangela, </h2>
-                <h2>venha navegar pelo o meu portólio.</h2>
+            <S.Perfil src={Perfil} alt="" />
+            </div>
+         
+            <div>
+                <h2>Olá, tenho 41 anos, sou graduada em Licenciatura em Turismo, mas, a paixão que tenho por tecnologia desde a adolescência me "pescou" novamente. </h2>
+                
             </div>
 
         </S.ContainerSobre>
