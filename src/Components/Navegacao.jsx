@@ -20,18 +20,15 @@ function Navegacao() {
             <BrowserRouter>
                 <S.Nav>
                     <S.Lista>
-                        
-
-                        <li> <Link to="/"> Inicio </Link>  </li>
-                        <li> <Link to="/Sobre"> Sobre </Link>   </li>
-                        <li> <Link to="/Projetos"> Projetos </Link>  </li>
+                        <li> <Link to="/"> Inicio </Link> </li>
+                        <li> <Link to="/Sobre"> Sobre </Link> </li>
+                        <li> <Link to="/Projetos"> Projetos </Link> </li>
                     </S.Lista>
                 </S.Nav>
 
 
                 <Routes>
                     
-
                     <Route path="/" element={ <Inicio /> } />
                     <Route path="Sobre" element={ <Sobre /> } />
                     <Route path="Projetos" element={ <Projetos /> } />
