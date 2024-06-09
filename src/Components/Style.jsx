@@ -56,6 +56,14 @@ export const Inicio = styled.div`
 export const Inicio2 = styled.section`
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+    @media (max-width: 600px{
+        margin-top: 90px;
+      
+    }
+    
 `
 export const Div = styled.div`
     width: 15vw;
@@ -74,6 +82,14 @@ export const GridContainer = styled.div`
     margin-left: 5rem;
     height: 510px;
     
+    @media (max-width: 600px) {
+        grid-template-columns: repeat(1, 1fr);
+        align-content: center;
+        margin-left: 5rem;
+        margin-top: 20rem;
+        margin-right: 4.5rem;
+        
+    }
 `;
 
 export const Image = styled.img`
@@ -81,6 +97,12 @@ export const Image = styled.img`
     height: auto;
     border: solid white;
     border-radius: 10px;
+
+    @media (max-width: 600px){
+        width: 60vw;
+        height: auto;
+    }
 `;
+
 
 

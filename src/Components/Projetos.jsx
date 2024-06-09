@@ -30,7 +30,7 @@ function Projetos() {
                 
                 <a href='https://fantastika-pet-shop.vercel.app/' target="blank"><Image src={Fantastika} alt="Foto 4" /></a>
                 
-                <a href='https://site-de-viagem.vercel.app/' target="blank"><Image src={Viagem} alt="Foto 5" /></a>
+                <a href='site-viagem-kappa.vercel.app' target="blank"><Image src={Viagem} alt="Foto 5" /></a>
                 
             </GridContainer>
 
